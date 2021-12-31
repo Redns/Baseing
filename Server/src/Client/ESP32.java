@@ -6,6 +6,10 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
 
+/**
+ * ESP32下位机客户端, 服务器收到来自 ESP32的数据后
+ * 保存在服务器中
+ */
 public class ESP32 extends Client{
     @Override
     public void start(Socket socket,

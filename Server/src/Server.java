@@ -7,6 +7,10 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
+/**
+ * 线程实现类
+ * 调用 Client 文件夹下的各个子类
+ */
 public class Server implements Runnable{
 
     private Socket socket;                      // tcp端口

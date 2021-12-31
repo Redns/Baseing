@@ -7,6 +7,9 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
+/**
+ * VOFA+桌面上位机客户端, 循环接收来自服务器的数据
+ */
 public class VOFA extends Client{
     @Override
     public void start(Socket socket,

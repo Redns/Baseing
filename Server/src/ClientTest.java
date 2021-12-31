@@ -4,6 +4,10 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * 客户端模拟类
+ * 模拟 ESP32下位机客户端, 循环向服务器发送正弦波采样数据
+ */
 public class ClientTest {
     public static void main(String[] args) throws IOException, InterruptedException {
         final int SERVER_PORT = 8888;

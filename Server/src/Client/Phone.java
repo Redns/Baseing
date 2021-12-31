@@ -7,6 +7,9 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
+/**
+ * 手机上位机客户端, 循环接收来自服务器的数据
+ */
 public class Phone extends Client{
     /**
      * 客户端(手机)启动函数
