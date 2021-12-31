@@ -22,11 +22,29 @@
 
 ## 使用说明
 
-```
+1. 使用`IDEA`打开`Server`文件夹
 
-```
+   ![image-20220101033921484](https://s2.loli.net/2022/01/01/72vmslOkTLoA4nu.png)
 
+2. 运行`Main`函数，启动服务器
 
+   ![image-20220101034020448](https://s2.loli.net/2022/01/01/xB63FdrSlfDCkgn.png)
+
+3. 运行`ClientTest`测试类，该类用于模拟`ESP32`客户端向服务器发送数据
+
+   ![image-20220101034147637](https://s2.loli.net/2022/01/01/KBXlQf1ungvFYb2.png)
+
+4. 连接成功后控制台会打印相关信息
+
+   ![image-20220101034255713](https://s2.loli.net/2022/01/01/rwcjt3Fx6d2VSsv.png)
+
+5. 启动`VOFA+`上位机，按照图示配置设置，点击连接后即可查看数据波形
+
+   ![image-20220101034457413](https://s2.loli.net/2022/01/01/BMxZUpXketnjYFR.png)
+
+   ![image-20220101034545689](https://s2.loli.net/2022/01/01/p6IbjzPBxiT8YuA.png)
+
+   VOFA+的相关协议及使用方法请移步官方手册[firewater | VOFA+](https://www.vofa.plus/docs/learning/dataengines/firewater)
 
 ## License
 
