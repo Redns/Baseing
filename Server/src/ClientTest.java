@@ -24,15 +24,12 @@ public class ClientTest {
         float w = 1.0f;
 
         while (true){
-            //500ms更新一次数据
-            Thread.sleep(500);
-
             //发送数据包
-            for(int i = 0; i < 100; i++){
+            for(int i = 0; i < 200; i++){
                 pkt = ":" + String.valueOf((int)( 2 * (Math.sin(0.1 * i)) * 100) / 100.0) + "\n";
                 output.write(pkt.getBytes(StandardCharsets.UTF_8));
                 System.out.println(pkt);
-                Thread.sleep(1000);
+                Thread.sleep(100);
             }
         }
     }

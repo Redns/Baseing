@@ -20,13 +20,14 @@ public class Phone extends Client{
     public void start(Socket socket,
                       ArrayList<String> pkt,
                       InputStream inputStream,
-                      OutputStream outputStream, ArrayList<Integer> DATA_NUMBER) throws IOException {
+                      OutputStream outputStream, ArrayList<Integer> DATA_NUMBER) throws IOException, InterruptedException {
         long DATA_SEND = 0;
         while(true){
             if(DATA_SEND < DATA_NUMBER.get(0)){
                 outputStream.write(pkt.get(0).getBytes(StandardCharsets.UTF_8));
                 DATA_SEND = DATA_NUMBER.get(0);
             }
+            Thread.sleep(10);
         }
 
     }

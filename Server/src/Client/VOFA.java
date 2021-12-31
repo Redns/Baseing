@@ -20,7 +20,7 @@ public class VOFA extends Client{
                 outputStream.write(pkt.get(0).getBytes(StandardCharsets.UTF_8));
                 DATA_SEND = DATA_NUMBER_COPY;
             }
-            Thread.sleep(5);
+            Thread.sleep(10);
         }
     }
 
