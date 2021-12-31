@@ -1,6 +1,6 @@
 # Baseing
 
-![VOFA+](https://img.shields.io/badge/VOFA%2B-v1.3.10-green)![micropython: v1.15 (shields.io)](https://img.shields.io/badge/micropython-v1.15-blue) ![APM](https://img.shields.io/apm/l/vim-mode)
+![micropython: v1.15 (shields.io)](https://img.shields.io/badge/micropython-v1.15-blue) ![VOFA+](https://img.shields.io/badge/VOFA%2B-v1.3.10-green) ![APM](https://img.shields.io/apm/l/vim-mode)
 
 ## Background
 
