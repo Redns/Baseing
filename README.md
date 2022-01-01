@@ -1,6 +1,6 @@
 # Baseing
 
-![micropython: v1.15 (shields.io)](https://img.shields.io/badge/micropython-v1.15-blue) ![VOFA+](https://img.shields.io/badge/VOFA%2B-v1.3.10-green) ![APM](https://img.shields.io/apm/l/vim-mode)
+![micropython: v1.15 (shields.io)](https://img.shields.io/badge/micropython-v1.15-blue) ![VOFA+](https://img.shields.io/badge/VOFA%2B-v1.3.10-green) ![](https://img.shields.io/badge/Thonny-v3.3.7-orange) ![APM](https://img.shields.io/apm/l/vim-mode)
 
 ## Background
 
@@ -8,25 +8,35 @@
 
 ![image-20220101030309794](https://s2.loli.net/2022/01/01/hipmozjkP8DMlar.png)
 
-- 桌面上位机使用开源上位机`VOFA+`，界面美观大方、自由定制，协议高效、易用
-
+- 桌面上位机使用开源上位机`VOFA+`，界面美观清新、自由定制，协议高效、易用
 - 移动上位机使用`Android Studio`开发，可显示波形、文字
-
 - 服务器使用`Java`开发
-
 - ESP32、VOFA+、Android上位机与服务器均通过`WIFI`连接，具体使用时请确保其均处于同一局域网下
-
 - 微处理器通过`串口`将需要分发的数据传输给`ESP32`，ESP32将数据通过`TCP连接`发送至服务器，服务器保存数据后通过`TCP连接`将数据分发给`VOFA+上位机`和`Android上位机`
 
-  
 
-## 使用说明
+
+
+## Environment
+
+- Thonny (v3.3.7及以上)
+- IDEA
+- JDK9 (及以上)
+- Android Studio (非必要)
+
+
+
+## Usage
+
+#### 启动服务器
 
 1. 使用`IDEA`打开`Server`文件夹
 
    ![image-20220101033921484](https://s2.loli.net/2022/01/01/72vmslOkTLoA4nu.png)
 
-2. 运行`Main`函数，启动服务器
+   <br>
+
+2. 运行`Main`类，启动服务器
 
    ![image-20220101034020448](https://s2.loli.net/2022/01/01/xB63FdrSlfDCkgn.png)
 
@@ -38,7 +48,11 @@
 
    ![image-20220101034255713](https://s2.loli.net/2022/01/01/rwcjt3Fx6d2VSsv.png)
 
-5. 启动`VOFA+`上位机，按照图示配置设置，点击连接后即可查看数据波形
+
+
+#### 连接VOFA+
+
+1. 启动`VOFA+`上位机，按照图示配置设置，点击连接后即可查看数据波形
 
    ![image-20220101034457413](https://s2.loli.net/2022/01/01/BMxZUpXketnjYFR.png)
 
