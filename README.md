@@ -3,7 +3,15 @@
 ![micropython: v1.15 (shields.io)](https://img.shields.io/badge/micropython-v1.15-blue) ![VOFA+](https://img.shields.io/badge/VOFA%2B-v1.3.10-green) ![](https://img.shields.io/badge/Thonny-v3.3.7-orange) ![APM](https://img.shields.io/apm/l/vim-mode)
 
 <br>
-
+- [Baseing](#baseing)
+  - [Background](#background)
+  - [Environment](#environment)
+  - [Usage](#usage)
+      - [启动服务器](#启动服务器)
+      - [连接VOFA+](#连接vofa)
+      - [连接ESP32](#连接esp32)
+  - [License](#license)
+  
 ## Background
 
 在某些应用中，我们需要将`微处理器`计算或采集的相关数据分发至其它设备 (如`上位机`、`其它嵌入式设备`等)，并将数据通过上位机显示出来，这些微处理器自身往往并不具备`无线传输`功能 。对于不熟悉`无线通信`和`应用开发`的用户来说，要实现这样的功能实际上并不容易。因此，笔者提供了一种通用的解决方案，使得开发者在不需要相关基础的同时能够快速地完成`数据分发`和`数据显示`功能。整体方案如下：
