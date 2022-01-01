@@ -3,14 +3,6 @@
 ![micropython: v1.15 (shields.io)](https://img.shields.io/badge/micropython-v1.15-blue) ![VOFA+](https://img.shields.io/badge/VOFA%2B-v1.3.10-green) ![](https://img.shields.io/badge/Thonny-v3.3.7-orange) ![APM](https://img.shields.io/apm/l/vim-mode)
 
 <br>
-- [Baseing](#baseing)
-  - [Background](#background)
-  - [Environment](#environment)
-  - [Usage](#usage)
-      - [启动服务器](#启动服务器)
-      - [连接VOFA+](#连接vofa)
-      - [连接ESP32](#连接esp32)
-  - [License](#license)
   
 ## Background
 
