@@ -21,10 +21,10 @@
 
 ## Environment
 
-- Thonny (v3.3.7及以上)
-- IDEA
-- JDK9 (及以上)
-- Android Studio (非必要)
+- [Thonny](https://thonny.org/)
+- [IDEA](https://www.jetbrains.com/idea/)
+- [JDK9](https://www.oracle.com/java/technologies/javase/javase9-archive-downloads.html)
+- [Android Studio](https://developer.android.com/studio) (非必要)
 
 <br>
 
